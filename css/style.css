@@ -1,0 +1,12 @@
+body {
+    font-family: 'Scada', sans-serif;
+    color: #2c2c2c;
+    font-size: 16px;
+    line-height: 1.62;
+}
+a, button {
+    transition: all .3s linear;
+}
+a:focus, a:hover {
+    text-decoration: none;
+}
