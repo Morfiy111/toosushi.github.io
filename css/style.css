@@ -174,6 +174,36 @@ a:focus, a:hover {
     border: 2px solid #e74c3c;
     transform: scale(1.5);
 }
+.title-block-hidden {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.title-block-hidden:before, .title-block-hidden:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2px;
+    position: relative;
+    background-color: #e74c3c;
+}
+.title-block-hidden:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.title-block-hidden:after {
+    margin-right: -100%;
+    right: -14px;
+}
+.main-page-content {
+    margin: 40px 0;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
