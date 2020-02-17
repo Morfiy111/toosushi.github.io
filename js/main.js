@@ -38,3 +38,13 @@ $(document).ready(function(){
     });
 });
 
+jQuery(function($) {
+    $(window).scroll(function(){
+        if($(this).scrollTop()>390){
+            $('.red-back-block').addClass('fixed');
+        }
+        else if ($(this).scrollTop()<390){
+            $('.red-back-block').removeClass('fixed');
+        }
+    });
+});

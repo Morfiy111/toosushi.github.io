@@ -245,6 +245,38 @@ a:focus, a:hover {
 .main-catalog-item:hover img {
     transform: scale(1.05);
 }
+#button-up {
+    display: none;
+    right: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    width: 57px;
+    color: #333333;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0px 0 0 28px;
+    background: url("../images/scrolltop.png") no-repeat 7px 11px transparent;
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    z-index: 9;
+    background-size: 50px;
+}
+#button-up span {
+    display: block;
+    width: 56px;
+    height: 66px;
+}
+.red-back-block.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -322,6 +354,9 @@ a:focus, a:hover {
     .header-social-item img:first-child {
         margin-right: 20px;
     }
+    .main-catalog-item {
+        width: 48%;
+    }
 }
 @media(max-width: 400px) {
     .header-main-page {
@@ -348,5 +383,8 @@ a:focus, a:hover {
     }
     .header-social-item img:first-child {
         margin: 0 0 0 15px;
+    }
+    .main-catalog-item {
+        width: 100%;
     }
 }

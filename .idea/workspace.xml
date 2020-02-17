@@ -4,6 +4,7 @@
     <list default="true" id="698f7e46-1313-4e64-9fb3-cee71e28e9e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toosushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/toosushi.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toosushi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="142" column="48" lean-forward="true" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="48" />
+            <state relative-caret-position="251">
+              <caret line="206" column="10" selection-start-line="206" selection-start-column="10" selection-end-line="206" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -35,15 +36,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="225" column="21" selection-start-line="225" selection-start-column="21" selection-end-line="225" selection-end-column="21" />
+            <state relative-caret-position="251">
+              <caret line="276" column="16" selection-start-line="276" selection-start-column="16" selection-end-line="276" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,6 +61,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/toosushi.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -98,7 +104,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LP-pusk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flamingo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -127,18 +133,19 @@
       <workItem from="1581579894414" duration="12418000" />
       <workItem from="1581600692320" duration="761000" />
       <workItem from="1581659271055" duration="8636000" />
-      <workItem from="1581920966978" duration="2975000" />
+      <workItem from="1581920966978" duration="3604000" />
+      <workItem from="1581928626740" duration="898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24790000" />
+    <option name="totallyTimeSpent" value="26317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="150" y="46" width="1346" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2616099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26625386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -170,20 +177,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/toosushi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="142" column="48" lean-forward="true" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="48" />
+        <state relative-caret-position="251">
+          <caret line="206" column="10" selection-start-line="206" selection-start-column="10" selection-end-line="206" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="225" column="21" selection-start-line="225" selection-start-column="21" selection-end-line="225" selection-end-column="21" />
+        <state relative-caret-position="251">
+          <caret line="276" column="16" selection-start-line="276" selection-start-column="16" selection-end-line="276" selection-end-column="16" />
         </state>
       </provider>
     </entry>
