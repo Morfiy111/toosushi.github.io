@@ -208,6 +208,7 @@ a:focus, a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .main-catalog-item {
     border: 1px solid #e74c3c;
@@ -222,7 +223,7 @@ a:focus, a:hover {
 .main-catalog-link {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 10px;
 }
 .main-catalog-btn a {
@@ -276,6 +277,25 @@ a:focus, a:hover {
     top: 0;
     width: 100%;
     z-index: 111;
+}
+.price-main-block {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+.old-main-price {
+    margin-right: 10px;
+    opacity: 0.5;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.recommendation-block-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.recommendation-item {
+    width: 24%;
 }
 @media (min-width: 768px) {
     .navbar-nav {
