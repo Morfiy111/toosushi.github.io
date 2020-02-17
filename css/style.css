@@ -204,6 +204,47 @@ a:focus, a:hover {
 .main-page-content {
     margin: 40px 0;
 }
+.main-catalog-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-catalog-item {
+    border: 1px solid #e74c3c;
+    border-radius: 4px;
+    padding: 10px;
+    width: 32%;
+    margin-bottom: 20px;
+}
+.main-catalog-img img {
+    width: 100%;
+}
+.main-catalog-link {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.main-catalog-btn a {
+    background-color: #e74c3c;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #e74c3c;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.main-catalog-btn a:hover {
+    background-color: #fff;
+    color: #e74c3c;
+}
+.main-catalog-item img {
+    transition: all .3s linear;
+}
+.main-catalog-item:hover img {
+    transform: scale(1.05);
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
