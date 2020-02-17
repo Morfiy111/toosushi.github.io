@@ -297,6 +297,10 @@ a:focus, a:hover {
 .recommendation-item {
     width: 24%;
 }
+.instagram-block {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
