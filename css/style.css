@@ -463,6 +463,9 @@ textarea.form-control{
     top: 0;
     left: 0;
 }
+.delivery-item {
+    text-align: center;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
