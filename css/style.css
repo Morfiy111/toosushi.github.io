@@ -248,7 +248,7 @@ a:focus, a:hover {
 }
 #button-up {
     display: none;
-    right: 0;
+    left: 0;
     margin: 0;
     position: fixed;
     bottom: 67px;
@@ -300,6 +300,121 @@ a:focus, a:hover {
 .instagram-block {
     background-color: #f8f8f8;
     padding: 40px 0;
+}
+#cart {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    z-index: 9;
+    transition: all ease-in-out .3s;
+    color: #e74c3c;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    background: #e74c3c;
+    padding: 5px 6px 5px 10px;
+    border-radius: 50px 0 0 50px;
+    border: 2px solid #fff;
+}
+#cart {
+    margin: 0 !important;
+}
+#cart_content {
+    position: fixed;
+    z-index: 9;
+    height: 100%;
+    width: 360px;
+    top: 0;
+    right: -370px;
+    overflow: auto;
+    padding: 13px 15px;
+    background: #fff;
+    transition: all ease-in-out .3s;
+}
+.cart_content {
+    position: relative;
+}
+ #column-left h3, #column-right h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e74c3c;
+    margin: -3px 0 8px;
+    padding: 0 0 7px;
+    border-bottom: solid 2px #ddd;
+    text-align: left;
+}
+#cart_content .image {
+    padding: 0 5px 0 0;
+}
+#cart_content img {
+    display: block;
+    padding: 3px;
+    border-radius: 3px;
+    max-width: 100%;
+    height: auto;
+    max-height: 450px;
+}
+#cart.show {
+    right: 360px;
+}
+#cart_content.show {
+    right: 0;
+    z-index: 9999;
+}
+#cart_content input {
+    padding: 6px 12px;
+    margin-bottom: 10px;
+}
+#cart_content .quantity input {
+    width: 45px;
+}
+#cart_content .quantity {
+    padding: 0 10px;
+}
+#cart_content .continue {
+    display: inline-block;
+    margin: 10px 0;
+    color: #e74c3c;
+    border-bottom: dotted 1px;
+    cursor: pointer;
+}
+#cart_content .continue:hover, .remove i:hover {
+    color: #68251B;
+}
+.remove {
+    cursor: pointer;
+}
+.remove i {
+    color: #e74c3c;
+}
+.personal-info {
+    font-size: 12px;
+}
+textarea.form-control{
+    margin-bottom: 10px;
+}
+#cart_content .total {
+    padding-left: 10px;
+}
+.mini-cart-info table {
+    width: 100%;
+}
+.mini-cart-info table tr {
+    border-bottom: 1px solid #ccc;
+}
+.button-order {
+    background-color: #e74c3c;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #e74c3c;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.button-order:hover {
+    background-color: #fff;
+    color: #e74c3c;
 }
 @media (min-width: 768px) {
     .navbar-nav {

@@ -48,3 +48,43 @@ jQuery(function($) {
         }
     });
 });
+
+$('#user-success').on('change', function () {
+    if ($(this).prop('checked')) {
+        $('#send-order').removeAttr('disabled');
+    } else {
+        $('#send-order').attr('disabled', true);
+    }
+});
+$('.js-open-user-success').on('click', function () {
+    $('.js-modal-user-success').toggleClass('is-active');
+});
+
+$(document).ready(function() {
+    $('#cart').bind('click', function () {
+        $('#cart, #cart_content').toggleClass('show');
+        var time;
+        $('#cart_content').mouseout(function () {
+            time = setTimeout(function () {
+                $('#cart, #cart_content').removeClass('show');
+            }, 3000);
+        });
+        $('#cart_content').mouseover(function () {
+            clearTimeout(time);
+        });
+        if ($('.cart_content .mini-cart-info tr').length != 0) {
+            $('.quick_order').addClass('show')
+        }
+    });
+});
+$('.cart-go').click(function(){
+    $('#cart, #cart_content').toggleClass('show');
+});
+$(document).ready(function(){
+    $(".navbar-nav").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
