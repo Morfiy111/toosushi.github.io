@@ -416,6 +416,53 @@ textarea.form-control{
     background-color: #fff;
     color: #e74c3c;
 }
+.number-today-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.number-today-item {
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number-today-item i {
+    color: #e74c3c;
+    font-size: 80px;
+    transition: all .4s;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.number-today-item:hover i {
+    transform: rotate(-360deg);
+    opacity: 1;
+}
+.benefits__number {
+    font-size: 40px;
+}
+.benefits__title {
+    text-align: center;
+}
+.background-image-block {
+    background-image: url("../images/roll-back.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    position: relative;
+}
+.background-image-block p, .background-image-block h3 {
+    position: relative;
+}
+.overlay-block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 0;
+    left: 0;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -495,6 +542,13 @@ textarea.form-control{
     }
     .main-catalog-item {
         width: 48%;
+        margin-bottom: 20px;
+    }
+    .number-today-flex {
+        flex-wrap: wrap;
+    }
+    .number-today-item {
+        width: 48%;
     }
 }
 @media(max-width: 400px) {
@@ -522,6 +576,9 @@ textarea.form-control{
     }
     .header-social-item img:first-child {
         margin: 0 0 0 15px;
+    }
+    .main-catalog-item {
+        width: 100%;
     }
     .main-catalog-item {
         width: 100%;
