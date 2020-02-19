@@ -524,6 +524,9 @@ textarea.form-control{
 .cart-person-number {
     margin-bottom: 10px;
 }
+.cart-pay-method select {
+    margin-bottom: 10px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
