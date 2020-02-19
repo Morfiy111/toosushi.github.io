@@ -475,7 +475,6 @@ textarea.form-control{
 .footer-flex-block {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px;
 }
 .footer-flex-block a {
     color: #fff;
@@ -505,6 +504,9 @@ textarea.form-control{
 }
 .footer-logo {
     width: 111px;
+}
+.delivery-block {
+    margin-bottom: 40px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
