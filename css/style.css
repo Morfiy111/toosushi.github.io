@@ -466,6 +466,46 @@ textarea.form-control{
 .delivery-item {
     text-align: center;
 }
+.footer-page {
+    background-color: #e74c3c;
+    padding: 40px 0;
+    margin-top: 50px;
+    color: #fff;
+}
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.footer-flex-block a {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-address-item i {
+    margin-right: 5px;
+}
+.footer-copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-copyright a {
+    color: #fff;
+}
+.footer-address .social-block {
+    display: flex;
+}
+.footer-address .social-block a {
+    margin-right: 8px;
+    font-size: 22px;
+}
+.footer-logo img {
+    width: 100%;
+}
+.footer-logo {
+    width: 111px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
