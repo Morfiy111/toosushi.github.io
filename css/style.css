@@ -508,6 +508,22 @@ textarea.form-control{
 .delivery-block {
     margin-bottom: 40px;
 }
+.cart-person-number {
+    display: flex;
+    align-items: center;
+}
+.cart-person-number #person-number {
+    width: 70px;
+    margin-bottom: 0;
+}
+.cart-person-number label {
+    margin-right: 15px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.cart-person-number {
+    margin-bottom: 10px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -601,6 +617,12 @@ textarea.form-control{
     .footer-links {
         margin: 0 10px;
     }
+    #cart.show {
+        right: 332px;
+    }
+    #cart_content {
+        width: 334px;
+    }
 }
 @media(max-width: 400px) {
     .header-main-page {
@@ -638,6 +660,9 @@ textarea.form-control{
         margin: 0;
     }
     .footer-logo {
+        width: 100%;
+    }
+    #cart_content {
         width: 100%;
     }
 }
