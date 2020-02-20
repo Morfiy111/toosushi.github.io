@@ -537,6 +537,9 @@ textarea.form-control{
 .menu-mobile-text {
     display: none;
 }
+.footer-time {
+    width: 212px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -639,6 +642,23 @@ textarea.form-control{
     .menu-mobile-text {
         display: block;
     }
+    .footer-address {
+        width: 100%;
+    }
+    .footer-address-item {
+        text-align: center;
+    }
+    .footer-address .social-block {
+        justify-content: center;
+    }
+    .footer-pay-time {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .navbar-default .navbar-nav > li > a img {
+        display: none;
+    }
 }
 @media(max-width: 400px) {
     .header-main-page {
@@ -680,5 +700,8 @@ textarea.form-control{
     }
     #cart_content {
         width: 100%;
+    }
+    .footer-pay-time {
+        margin-bottom: 10px;
     }
 }
