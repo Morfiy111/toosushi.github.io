@@ -685,6 +685,9 @@ textarea.form-control{
     .header-cart-title, .header-cart-price {
         display: none;
     }
+    .header-feedback-text, .header-feedback-phone a {
+        white-space: nowrap;
+    }
 }
 @media(max-width: 400px) {
     .header-main-page {
@@ -703,7 +706,7 @@ textarea.form-control{
         justify-content: center;
     }
     .header-feedback {
-        width: 48%;
+        width: 50%;
     }
     .header-social {
         justify-content: flex-end;
