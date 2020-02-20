@@ -216,6 +216,7 @@ a:focus, a:hover {
     padding: 10px;
     width: 32%;
     margin-bottom: 20px;
+    position: relative;
 }
 .main-catalog-img img {
     width: 100%;
@@ -296,6 +297,13 @@ a:focus, a:hover {
 }
 .recommendation-item {
     width: 24%;
+    padding: 10px 10px 60px 10px;
+}
+.recommendation-item .main-catalog-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
 }
 .instagram-block {
     background-color: #f8f8f8;
@@ -546,6 +554,28 @@ textarea.form-control{
 .good-description p {
     font-size: 14px;
     line-height: 1;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.ditto_currentpage {
+    color: #fff;
+    background-color: #e74c3c;
+    border: 1px solid #e74c3c;
+    padding: 5px 10px;
+    margin-right: 2px;
+    border-radius: 4px;
+}
+.ditto_page {
+    padding: 4.5px 10px;
+    color: #ffffff;
+    background-color: #e74c3c;
+    text-decoration: none;
+    border: 1px solid #e74c3c;
+    border-radius: 4px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
