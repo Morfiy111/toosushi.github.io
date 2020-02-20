@@ -688,6 +688,9 @@ textarea.form-control{
     .header-feedback-text, .header-feedback-phone a {
         white-space: nowrap;
     }
+    .header-cart-link img {
+        width: 43px;
+    }
 }
 @media(max-width: 400px) {
     .header-main-page {
