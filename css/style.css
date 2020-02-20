@@ -534,6 +534,9 @@ textarea.form-control{
     display: flex;
     align-items: center;
 }
+.menu-mobile-text {
+    display: none;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -632,6 +635,9 @@ textarea.form-control{
     }
     #cart_content {
         width: 334px;
+    }
+    .menu-mobile-text {
+        display: block;
     }
 }
 @media(max-width: 400px) {

@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/toosushi.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+              <caret line="82" column="49" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="534" column="24" selection-start-line="534" selection-start-column="24" selection-end-line="534" selection-end-column="24" />
+              <caret line="639" column="23" selection-start-line="639" selection-start-column="23" selection-end-line="639" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -150,12 +150,12 @@
       <workItem from="1582024103929" duration="955000" />
       <workItem from="1582026285256" duration="7702000" />
       <workItem from="1582091187147" duration="8421000" />
-      <workItem from="1582177249389" duration="1441000" />
+      <workItem from="1582177249389" duration="2097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59500000" />
+    <option name="totallyTimeSpent" value="60156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="92" width="1346" height="763" extended-state="0" />
@@ -243,14 +243,14 @@
     <entry file="file://$PROJECT_DIR$/toosushi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+          <caret line="82" column="49" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="534" column="24" selection-start-line="534" selection-start-column="24" selection-end-line="534" selection-end-column="24" />
+          <caret line="639" column="23" selection-start-line="639" selection-start-column="23" selection-end-line="639" selection-end-column="23" />
         </state>
       </provider>
     </entry>
