@@ -540,6 +540,9 @@ textarea.form-control{
 .header-cart-menu {
     display: none;
 }
+.header-feedback-text {
+    text-align: center;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
