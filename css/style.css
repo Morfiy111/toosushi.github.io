@@ -543,6 +543,10 @@ textarea.form-control{
 .header-feedback-text {
     text-align: center;
 }
+.good-description p {
+    font-size: 14px;
+    line-height: 1;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
