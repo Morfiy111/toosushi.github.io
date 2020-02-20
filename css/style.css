@@ -527,6 +527,13 @@ textarea.form-control{
 .cart-pay-method select {
     margin-bottom: 10px;
 }
+.navbar-toggle {
+    float: left;
+}
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
