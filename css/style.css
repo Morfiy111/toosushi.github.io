@@ -660,7 +660,7 @@ textarea.form-control{
         display: none;
     }
     #cart {
-        display: none;
+        display: none !important;
     }
     .header-cart {
         display: none;
