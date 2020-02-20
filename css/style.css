@@ -527,9 +527,6 @@ textarea.form-control{
 .cart-pay-method select {
     margin-bottom: 10px;
 }
-.navbar-toggle {
-    float: left;
-}
 .navbar-header {
     display: flex;
     align-items: center;
@@ -539,6 +536,9 @@ textarea.form-control{
 }
 .footer-time {
     width: 212px;
+}
+.header-cart-menu {
+    display: none;
 }
 @media (min-width: 768px) {
     .navbar-nav {
@@ -658,6 +658,29 @@ textarea.form-control{
     }
     .navbar-default .navbar-nav > li > a img {
         display: none;
+    }
+    #cart {
+        display: none;
+    }
+    .header-cart {
+        display: none;
+    }
+    .header-cart-menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header-cart-menu .header-cart-number {
+        background-color:  #fff;
+        color: #e74c3c;
+    }
+    .navbar-toggle {
+        float: left;
+        margin-right: 0;
+    }
+    .header-cart-menu .header-cart-link {
+        width: 54px;
     }
 }
 @media(max-width: 400px) {

@@ -77,7 +77,7 @@ $(document).ready(function() {
         }
     });
 });
-$('.cart-go').click(function(){
+$('.cart-go, .header-cart').click(function(){
     $('#cart, #cart_content').toggleClass('show');
 });
 $(document).ready(function(){
