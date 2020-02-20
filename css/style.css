@@ -577,6 +577,13 @@ textarea.form-control{
     border: 1px solid #e74c3c;
     border-radius: 4px;
 }
+.anchor {
+    padding-top: 130px;
+    margin-top: -130px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    display: block;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

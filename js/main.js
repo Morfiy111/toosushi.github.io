@@ -81,7 +81,7 @@ $('.cart-go, .header-cart').click(function(){
     $('#cart, #cart_content').toggleClass('show');
 });
 $(document).ready(function(){
-    $(".navbar-nav").on("click","a", function (event) {
+    $(".navbar-nav > .delivery-menu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
