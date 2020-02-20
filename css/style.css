@@ -669,7 +669,7 @@ textarea.form-control{
         display: block;
         position: absolute;
         right: 0;
-        top: 0;
+        top: 7px;
     }
     .header-cart-menu .header-cart-number {
         background-color:  #fff;
@@ -681,6 +681,9 @@ textarea.form-control{
     }
     .header-cart-menu .header-cart-link {
         width: 54px;
+    }
+    .header-cart-title, .header-cart-price {
+        display: none;
     }
 }
 @media(max-width: 400px) {
