@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="698f7e46-1313-4e64-9fb3-cee71e28e9e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toosushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/toosushi.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/toosushi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="156" column="155" selection-start-line="156" selection-start-column="155" selection-end-line="156" selection-end-column="155" />
+            <state relative-caret-position="279">
+              <caret line="470" column="50" selection-start-line="470" selection-start-column="50" selection-end-line="470" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -75,8 +74,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="178" />
-    <option name="y" value="69" />
+    <option name="x" value="-4" />
+    <option name="y" value="291" />
     <option name="width" value="1346" />
     <option name="height" value="763" />
   </component>
@@ -148,15 +147,15 @@
       <workItem from="1582024103929" duration="955000" />
       <workItem from="1582026285256" duration="7702000" />
       <workItem from="1582091187147" duration="8421000" />
-      <workItem from="1582177249389" duration="45000" />
+      <workItem from="1582177249389" duration="692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58104000" />
+    <option name="totallyTimeSpent" value="58751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="178" y="69" width="1346" height="763" extended-state="0" />
+    <frame x="128" y="20" width="1346" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49172577" visible="true" weight="0.29334366" />
@@ -247,8 +246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/toosushi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="156" column="155" selection-start-line="156" selection-start-column="155" selection-end-line="156" selection-end-column="155" />
+        <state relative-caret-position="279">
+          <caret line="470" column="50" selection-start-line="470" selection-start-column="50" selection-end-line="470" selection-end-column="50" />
         </state>
       </provider>
     </entry>
