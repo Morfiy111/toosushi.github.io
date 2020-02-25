@@ -9,6 +9,7 @@ body {
     color: #333;
     font-size: 16px;
     line-height: 1.62;
+    background-image: url("../images/background.png");
 }
 a, button {
     transition: all .3s linear;
@@ -217,6 +218,7 @@ a:focus, a:hover {
     width: 32%;
     margin-bottom: 20px;
     position: relative;
+    background-color: #fff;
 }
 .main-catalog-img img {
     width: 100%;
@@ -298,6 +300,7 @@ a:focus, a:hover {
 .recommendation-item {
     width: 24%;
     padding: 10px 10px 60px 10px;
+    background-color: #fff;
 }
 .recommendation-item .main-catalog-btn {
     position: absolute;
