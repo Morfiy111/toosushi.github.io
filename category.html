@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>РОЛЛЫ ПАЛЫ</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <header class="header-main-page">
+        <div class="logo-block-header">
+            <a href="/"><img src="images/logo_toosushi.png" alt=""></a>
+        </div>
+        <div class="header-address-block">
+            <div class="header-address">
+                <img src="images/marker.png" alt="">
+                <span>Курск</span>, Орловская, 24 «Б»
+            </div>
+            <div class="header-time">
+                <div class="header-time-img">
+                    <img src="images/time.png" alt="">
+                </div>
+                <div class="header-time-text">
+                    c 10:00 до 23:00<br>
+                    ПТ и СБ до 00:00
+                </div>
+            </div>
+        </div>
+        <div class="header-feedback">
+            <div class="header-feedback-text">
+                Любишь суши?<br>
+                Звони и кушай!
+            </div>
+            <div class="header-feedback-phone">
+                <a href="tel:+74712311322"><i class="fa fa-phone" aria-hidden="true"></i> 311-322</a>
+            </div>
+        </div>
+        <div class="header-social">
+            <div class="header-social-item">
+                <a href="https://vk.com/roll_kursk" target="_blank"><img src="images/vk.png" alt=""></a>
+            </div>
+            <div class="header-social-item">
+                <a href="https://www.instagram.com/roll_kursk" target="_blank"><img src="images/insta.png" alt=""></a>
+            </div>
+        </div>
+        <div class="header-cart">
+            <div class="header-cart-link">
+                <button type="button"><img src="images/cart.png" alt=""></button>
+                <div class="header-cart-number">3</div>
+            </div>
+            <div class="header-cart-title">
+                СУММА
+            </div>
+            <div class="header-cart-price">
+                899 <i class="fa fa-rub" aria-hidden="true"></i>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="red-back-block">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="menu-mobile-text">МЕНЮ</span>
+                <div class="header-cart header-cart-menu">
+                    <div class="header-cart-link">
+                        <button type="button"><img src="images/cart.png" alt="">
+                            <span class="header-cart-number">3</span>
+                        </button>
+                    </div>
+                    <div class="header-cart-title">
+                        СУММА
+                    </div>
+                    <div class="header-cart-price">
+                        899 <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><span>АКЦИИ</span>
+                        <img src="images/icon-action.png" alt="">
+                    </a></li>
+                    <li><a href="#"><span>СЕТЫ</span>
+                        <img src="images/icon-set.png" alt="">
+                    </a></li>
+                    <li><a href="#"><span>СУШИ ТОРТЫ</span>
+                        <img src="images/icon-cake.png" alt="">
+                    </a>
+                    </li>
+                    <li><a href="#"><span>РОЛЛЫ</span>
+                        <img src="images/icon-rolls.png" alt="">
+                    </a></li>
+                    <li><a href="#"><span>СУШКИ</span>
+                        <img src="images/icon-sushi.png" alt="">
+                    </a></li>
+                    <li><a href="#"><span>ЗАКУСКИ</span>
+                        <img src="images/icon-snake.png" alt="">
+                    </a></li>
+                    <li><a href="#"><span>СОУСЫ</span>
+                        <img src="images/icon-sousage.png" alt="">
+                    </a></li>
+                    <li><a href="#"><span>НАПИТКИ</span>
+                        <img src="images/icon-drink.png" alt="">
+                    </a></li>
+                    <li class="delivery-menu"><a href="#delivery"><span>ДОСТАВКА</span>
+                        <img src="images/icon-delivery.png" alt="">
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div id="cart_wrap">
+    <div id="cart" class="">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <span id="cart-total">3</span>
+    </div>
+    <div id="cart_content" class="">
+        <div class="cart_content">
+            <h3 class="box-heading">Ваша корзина</h3>
+            <div class="mini-cart-info">
+                <table>
+                    <tbody>
+                    <tr id="order-row-block">
+                        <td class="name">
+                            Сет Акуна матата
+                        </td>
+                        <td class="total">599 <i class="fa fa-rub" aria-hidden="true"></i></td>
+                        <td class="remove"><i class="fa fa-times"></i></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mini-cart-total">
+                <div class="continue" onclick="$('#cart, #cart_content').removeClass('show');">Продолжить покупки</div>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td><b>Итого</b></td>
+                        <td class="total"><b>599 р.</b></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="quick_order show">
+            <div><input class="form-control" type="text" value="" placeholder="Ваше имя" name="customer_name"></div>
+            <div><input type="tel" value="" placeholder="Контактный телефон" name="customer_phone" class="form-control"></div>
+            <div><textarea placeholder="Адрес доставки (улица, № дома, подъезд, этаж, квартира)" name="customer_delivery" class="form-control"></textarea></div>
+            <div><textarea placeholder="Комментарий" name="customer_comment" class="form-control"></textarea></div>
+            <div class="cart-person-number"><label for="person-number">Количество персон</label><input type="number" id="person-number" max="20" min="1"></div>
+            <div class="cart-pay-method">
+                <p>Выберите способ оплаты</p>
+                <select class="form-control">
+                    <option>Наличный</option>
+                    <option>Безналичный</option>
+                    <option>Онлайн-перевод</option>
+                </select>
+            </div>
+            <div class="personal-info">
+                <input type="checkbox" id="user-success" name="user-success" value="1"> Я согласен с <a href="" class="user-success">условиями "Пользовательского солашения"</a> и даю согласие на обработку своих персональных данных.
+            </div>
+            <div class="quick_order_button">
+                <button id="send-order" type="button" class="button-order" onclick="add_quick_order();">Отправить заказ</button>
+            </div>
+            <div class="continue" onclick="$('#cart, #cart_content').removeClass('show');">Закрыть</div>
+        </div>
+    </div>
+</div>
+<section class="main-page-content">
+    <div class="container">
+        <div class="title-block-hidden">
+            <h1 class="main-title">РОЛЛЫ</h1>
+        </div>
+        <div class="main-catalog-flex">
+            <div class="main-catalog-item">
+                <div class="main-catalog-img">
+                    <a href="#"><img src="images/catalog1.png" alt=""></a>
+                </div>
+                <div class="main-catalog-link">
+                    <a href="#">СЕТЫ</a>
+                </div>
+                <div class="main-catalog-btn">
+                    <a href="#">ПЕРЕЙТИ</a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <div class="main-catalog-img">
+                    <a href="#"><img src="images/catalog2.png" alt=""></a>
+                </div>
+                <div class="main-catalog-link">
+                    <a href="#">РОЛЛЫ</a>
+                </div>
+                <div class="main-catalog-btn">
+                    <a href="#">ПЕРЕЙТИ</a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <div class="main-catalog-img">
+                    <a href="#"><img src="images/catalog3.jpg" alt=""></a>
+                </div>
+                <div class="main-catalog-link">
+                    <a href="#">СУШИ ТОРТЫ</a>
+                </div>
+                <div class="main-catalog-btn">
+                    <a href="#">ПЕРЕЙТИ</a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <div class="main-catalog-img">
+                    <a href="#"><img src="images/catalog4.jpg" alt=""></a>
+                </div>
+                <div class="main-catalog-link">
+                    <a href="#">СУШКИ</a>
+                </div>
+                <div class="main-catalog-btn">
+                    <a href="#">ПЕРЕЙТИ</a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <div class="main-catalog-img">
+                    <a href="#"><img src="images/catalog5.jpg" alt=""></a>
+                </div>
+                <div class="main-catalog-link">
+                    <a href="#">ЗАКУСКИ</a>
+                </div>
+                <div class="main-catalog-btn">
+                    <a href="#">ПЕРЕЙТИ</a>
+                </div>
+            </div>
+            <div class="main-catalog-item">
+                <div class="main-catalog-img">
+                    <a href="#"><img src="images/catalog6.png" alt=""></a>
+                </div>
+                <div class="main-catalog-link">
+                    <a href="#">НАПИТКИ</a>
+                </div>
+                <div class="main-catalog-btn">
+                    <a href="#">ПЕРЕЙТИ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <a name="delivery" class="anchor" id="delivery"></a>
+        <div class="title-block-hidden">
+            <h2 class="main-title">ДОСТАВКА ПО КУРСКУ</h2>
+        </div>
+        </div>
+        <div class="map-block">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A915b676937e38a97ddbb1c756663469602ae018f6bd908a2d2e3f6e26dbb6e38&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </div>
+</section>
+<footer class="footer-page">
+    <div class="container">
+        <div class="footer-flex-block">
+            <div class="footer-logo">
+                <a href="/">
+                    <img src="images/logo_toosushi.png" alt="">
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Акции</a>
+                <a href="#">Сеты</a>
+                <a href="#">Суши торты</a>
+                <a href="#">Роллы</a>
+                <a href="#">Сушки</a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Закуски</a>
+                <a href="#">Соусы</a>
+                <a href="#">Напитки</a>
+                <a href="#">Доставка</a>
+            </div>
+            <div class="footer-links footer-pay-time">
+                <p><i class="fa fa-credit-card" aria-hidden="true"></i> Принимаем оплату картой</p>
+                <img src="images/time-white.png" alt="" class="footer-time">
+            </div>
+            <div class="footer-address">
+                <div class="footer-address-item">
+                    <a href="mailto:toosushi@mail.ru" title="Написать письмо">
+                        <i class="fa fa-envelope"></i><span>toosushi@mail.ru</span>
+                    </a>
+                </div>
+                <div class="footer-address-item">
+                    <a href="tel:+74712311322"><i class="fa fa-phone" aria-hidden="true"></i> 311-322</a>
+                </div>
+                <div class="footer-address-item social-block">
+                    <a href="https://vk.com/roll_kursk" target="_blank" title="Мы ВКонтакте">
+                        <i class="fa fa-vk" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/roll_kursk" target="_blank" title="Мы в Instagram">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/rollkursk" target="_blank" title="Мы в Facebook">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        Разработано <a href="https://tetris-studio.ru" target="_blank">Tetris Studio</a>
+    </div>
+</footer>
+<div id="button-up" title="Вверх!">
+    <span></span>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
