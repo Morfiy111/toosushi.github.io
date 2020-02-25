@@ -584,6 +584,9 @@ textarea.form-control{
     background-clip: content-box;
     display: block;
 }
+.sousages-choice {
+    margin-bottom: 15px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
