@@ -301,7 +301,7 @@ a:focus, a:hover {
     flex-wrap: wrap;
 }
 .recommendation-item {
-    width: 48%;
+    width: 24%;
     padding: 10px 10px 60px 10px;
     background-color: #fff;
 }
